@@ -7,7 +7,7 @@ public class Depurant {
 	public static String formatar(Date dia,int tipus) {
 		String cad = "";
 		SimpleDateFormat data;
-		
+		String hola;
 		switch (tipus) {
 		case 1:
 			data = new SimpleDateFormat("yyyy/MM");
